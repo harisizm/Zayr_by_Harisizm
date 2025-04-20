@@ -15,7 +15,8 @@ Zayr by Harisizm is a fully responsive e-commerce frontend built with React. It 
 
 📄login/signup page
 
-
+Live Demo: 
+https://zayrbyharisizm.vercel.app/
 
 Preview
 
