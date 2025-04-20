@@ -27,6 +27,23 @@ const ShopCategory = (props) => {
             return null;
           }
     })}       
+    {all_product.filter(item => item.category === props.category).length > 0 ? (
+  all_product.map((item, i) => (
+    item.category === props.category && (
+      <Item
+        key={i}
+        id={item.id}
+        name={item.name}
+        image={item.image}
+        new_price={item.new_price}
+        old_price={item.old_price}
+      />
+    )
+  ))
+) : (
+  <p>No products available.</p>
+)}
+
       </div>
       <div className="shopcategory-loadmore">
         Explore More

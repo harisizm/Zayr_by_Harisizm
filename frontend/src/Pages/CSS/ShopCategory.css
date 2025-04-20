@@ -36,3 +36,51 @@ color: #787878;
 font-size: 18px;
 font-weight: 500;
 }
+
+/* responsiveness */
+/* Tablet */
+@media (max-width: 1024px) {
+  .shopcategory-indexsort {
+    margin: 0 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .shopcategory-products {
+    margin: 20px 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .shopcategory-banner {
+    width: 95%;
+  }
+
+  .shopcategory-indexsort {
+    margin: 0 20px;
+    gap: 10px;
+  }
+
+  .shopcategory-products {
+    margin: 20px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+
+  .shopcategory-loadmore {
+    width: 160px;
+    height: 50px;
+    font-size: 14px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .shopcategory-products {
+    grid-template-columns: 1fr;
+  }
+}

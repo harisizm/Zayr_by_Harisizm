@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='footer'>
         <div className="footer-logo">
           <img src={footer_logo} alt="" />
-          <p>SHOPPER</p>
+          <p>Zayr is a premier South Asian contemporary label that aims at reinterpreting south asian heritage and artisanship.</p>
         </div>
         <ul className="footer-links">
           <li>Company</li>
